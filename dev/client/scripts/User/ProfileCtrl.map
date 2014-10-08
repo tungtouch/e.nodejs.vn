@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "ProfileCtrl.js",
+  "sourceRoot": "",
+  "sources": [
+    "ProfileCtrl.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA,EAAA,YAAA,CAAA;AAAA,EAEA,OAAO,CAAC,MAAR,CAAe,gBAAf,EAAiC,EAAjC,CAEA,CAAC,UAFD,CAEY,aAFZ,EAE2B,CACvB,QADuB,EACb,SADa,CAF3B,CAFA,CAAA;AAAA"
+}

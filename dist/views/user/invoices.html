@@ -1,0 +1,86 @@
+<div class="page page-invoice" data-ng-controller="invoiceCtrl">
+
+    <div class="invoice-wrapper">
+        <section class="invoice-container" id="invoice">
+
+            <div class="invoice-inner">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <p class="size-h2">{{main.brand}}</p>
+                        <p class="text-muted">Less code - More software </p>
+                    </div>
+                    <div class="col-xs-6 text-right">
+                        <p class="size-h2">INVOICE NO. #00105</p>
+                        <p>21st August 2014</p>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="row">
+                    <div class="col-xs-6">
+                        {{main.name}} <br>
+                        15/28 Thai Ha, Dong Da, Ha Noi <br>
+                        (84) 985-123123 <br>
+                        user@mail.com
+
+                    </div>
+                    <div class="col-xs-6 text-right">
+                        <p><strong>Order Details:</strong></p>
+                        <strong>Date:</strong> 21st August 2014 <br>
+                        <strong>Course:</strong> Collection Node.js <br>
+                    </div>
+                </div>
+
+                <div class="divider divider-lg"></div>
+
+                <table class="table table-bordered table-striped">
+                    <thead>
+                    <tr class="bg-dark">
+                        <th class="text-center">#</th>
+                        <th>Course</th>
+                        <th class="text-center">Unit Cost</th>
+                        <th class="text-center">Discounts</th>
+                        <th class="text-center">Total</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td class="text-center">1</td>
+                        <td>Collection Node.js </td>
+                        <td class="text-center">5.500.000đ</td>
+                        <td class="text-center">30%</td>
+                        <td class="text-center">3.800.000đ</td>
+                    </tr>
+
+                    </tbody>
+                </table>
+
+                <div class="row">
+                    <div class="col-xs-8">
+                        <p class="size-h3">Thanks for membership</p>
+                        <ul>
+                            <li>Aeserunt tenetur cum nihil repudiandae perferendis fuga vitae corporis!</li>
+                            <li>Laborum, necessitatibus recusandae ullam at iusto dolore.</li>
+                            <li>Voluptatum aperiam voluptates quasi!</li>
+                            <li>Assumenda, iusto, consequuntur corporis atque culpa saepe magnam recusandae</li>
+                            <li>Possimus odio ipsam magni sint reiciendis unde amet</li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-4 invoice-sum text-right">
+                        <ul class="list-unstyled">
+                            <li>Sub - Total amount: 3.800.000đ</li>
+                            <li>Put Money: <strong>1.200.000đ</strong></li>
+                            <li>Tax (0%): -----</li>
+                            <li><strong>Grand Total: 1.200.000đ</strong></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="text-center no-print">
+            <a href="" ng-click="printInvoice()" class="btn btn-primary btn-lg btn-w-lg"><i class="fa fa-print"></i> Print</a>
+        </section>
+    </div>
+</div>

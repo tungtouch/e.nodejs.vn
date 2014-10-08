@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "InvoicesCtrl.js",
+  "sourceRoot": "",
+  "sources": [
+    "InvoicesCtrl.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA,EAAA,YAAA,CAAA;AAAA,EAEA,OAAO,CAAC,MAAR,CAAe,gBAAf,EAAiC,EAAjC,CAEA,CAAC,UAFD,CAEY,cAFZ,EAE4B,CACxB,QADwB,EACd,SADc,CAF5B,CAFA,CAAA;AAAA"
+}
